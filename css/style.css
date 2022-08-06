@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear:both
+}
+
+html, body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+.header img {
+    width: 250px;
+}
+
+.header ul {
+    padding: 15px 0;
+    list-style: none;
+    background-color: black;
+    margin: 5px 0 10px;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.header ul li {
+    padding: 0 10px;
+    display: inline;
+}
+
+/* CAROUSEL */
+.carousel {
+    background-image: url("../img/slider_1.jpg");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* INTRO */
+.intro-item img {
+    width: 100%;
+    display: block;
+}
+
+.intro-text {
+    font-size: 20px;
+    margin: 25px 0 40px;
+}
+
+.intro-text span {
+    color: red;
+    font-weight: bold;
+}
+
+.intro-left, .intro-right {
+    float: left;
+    width: 50%;
+}
+.intro-small-item {
+    float: left;
+    width: 50%;
+}
+
+.intro-item-bottom {
+    float: left;
+    width: 50%;
+}
+
+.intro-item {
+    padding: 0px 15px 25px;
+}
+
+/* PRODUCT */
+.product-item {
+    margin-bottom: 70px;
+}
+.product-item {
+    float: left;
+    width: 25%;
+    /* margin: 0 10px; */
+    padding: 0 10px;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+.product h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.product h3 {
+    font-size: 25px;
+}
+
+.product button {
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid red;
+    margin-top: 15px;
+}
+
+/* BANNER */
+.banner {
+    background-image: url(../img/nature.jpg);
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.banner-circle {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(131, 41, 39, 0.8);
+    top: 50px;
+    left: 450px;
+    opacity: 0.8;
+}
+
+.banner-circle p {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.banner-circle p:first-child {
+    font-size: 30px;
+    margin: 50px 0 0;
+}
+
+.banner-circle p:nth-child(2) {
+    font-size: 80px;
+    margin: 0;
+}
+
+/* SERVICE */
+.service {
+    margin: 30px 0 10px;
+}
+
+.service-content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.service-item {
+    float: left;
+    width: calc(100%/3);
+    padding: 0 10px;
+}
+
+.service-item i {
+   font-size: 40px; 
+}
+
+.service-item h2 {
+    margin: 10px 0;
+}
+
+.service-item p {
+    margin: 0;
+}
+
+/* FOOTER */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footer h2, .footer p {
+    margin: 0;
+}
+
+.footer h2 {
+    font-size: 30px;
+}
+
